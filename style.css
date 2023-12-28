@@ -1,0 +1,1002 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topbar-main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    top: 0;
+    position: sticky;
+    background-color: black;
+
+}
+.topbar-1{
+    margin-left: 50px;
+}
+.topbar-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.topbar-2-list a{
+    text-decoration: none;
+    color: white;
+}
+.topbar-2 li{
+   margin-right: 40px;
+   font-size: 18px;
+}
+.topbar-2-list li{
+    position: relative;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+.topbar-2-list li::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background-color: #FFBD39;
+    transition: all ease 0.5s;
+  
+}
+.topbar-2-list li:hover::after{
+    width: 100%;
+}
+.home-section-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-section-text span{
+    color: white;
+}
+.home-section-text p{
+    color: white;
+    font-size: 40px;
+
+}
+.home-section-text h1 {
+    color: #FFBD39;
+    font-size: 80px;
+}
+.home-section-text h5{
+    color: #FFBD39;
+    font-size: 25px;
+}
+.home-section-text{
+    margin-left: -150px;
+    margin-top: -20px;
+    
+}
+.home-button-1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFBD39;
+    font-size: 15px;
+    margin-top: 30px;
+
+
+}
+.home-button-1 a{
+    text-decoration: none;
+    color: black;
+}
+.home-button-2 a{
+    text-decoration: none;
+    color: white;
+}
+.home-button-2 {
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.about-us-2 p{
+    color: #999999;
+    font-size: 18px;
+    line-height: 35px;
+}
+.about-us-main{
+    color: white;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+}
+.about-us-2 h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.about-us-2{
+    margin-top: 50px;
+}
+.about-my-birth-main{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.about-my-birth-main h5{
+    font-size: 18px;
+    line-height: 40px;
+}
+.about-my-birth-main p{
+    margin-left: 100px;
+    line-height: 40px;
+}
+.about-button button{
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FFBD39;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.resume-1 h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.block-1 h2{
+    color: #FFBD39;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.block-1 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.block-1 p{
+    color: #767676;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+    width: 450px;
+}
+.block-1 h5{
+    color: #767676;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.block-1{
+    background-color: #1A1A1A;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+.list{ 
+    color: #767676;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+    width: 450px;
+
+}
+.block-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service-heading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.services-1{
+    background-color: #1A1A1A;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.services-1 p{
+    color: white;
+    margin-top: 20px;
+}
+.services-1 img{
+    color: white;
+    margin-top: -20px;
+}
+.services-1:hover{
+    background-color: #FFBD39;
+    color: black;
+}
+.services-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.skill-main h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+/* ------------------------------skill-1-------------------------------- */
+.skill-1{
+    width: 500px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #1A1A1A;
+}
+.skill-1-main{
+    width: 500px;
+    margin-top: 80px;
+}
+.skill-1-main div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.skill-1 div{
+    width: 480px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #FFBD39;
+}
+/* ------------------------------skill-2-------------------------------- */
+.skill-2{
+    width: 500px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #1A1A1A;
+}
+.skill-2-main{
+    width: 500px;
+    margin-top: 80px;
+}
+.skill-2-main div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.skill-2 div{
+    width: 450px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #FFBD39;
+}
+/* ------------------------------skill-3-------------------------------- */
+.skill-3{
+    width: 500px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #1A1A1A;
+}
+.skill-3-main{
+    width: 500px;
+    margin-top: 80px;
+}
+.skill-3-main div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.skill-3 div{
+    width: 420px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #FFBD39;
+}
+/* ------------------------------skill-4-------------------------------- */
+.skill-4{
+    width: 500px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #1A1A1A;
+}
+.skill-4-main{
+    width: 500px;
+    margin-top: 80px;
+}
+.skill-4-main div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.skill-4 div{
+    width: 400px;
+    border-radius: 20px;
+    height: 12px;
+    background-color: #FFBD39;
+}
+.skill3-main{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.skill-main{
+    margin-bottom: 50px;
+}
+.contact-heading{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.contact-1{
+    margin-top: 90px;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.contact-1 h3{
+    margin-top: 30px;
+}
+.contact-1 p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #767676;
+}
+.contact-1 img{
+    border-radius: 100%;
+    background-color: #1A1A1A;
+    padding: 20px;
+}
+.contact-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------mediaquery mobile---------------------------------- */
+@media screen and (min-width:320px) and (max-width:480px){
+    .topbar-2-list li{
+        display: none;
+    }
+    .topbar-main{
+        width: auto;
+    }
+    .home-section-image{
+        display: none;
+    }
+    .home-section-text {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .about-us-1 img{
+        display: none;
+        margin-right: 0px;
+    }
+    .block-main{
+        display: block;
+    }
+    .block-1{
+       
+    background-color: #1A1A1A;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 10px; 
+    }
+    .block-1 p{
+        font-size: 12px; 
+        width: 270px;
+    }
+    .services-main{
+        display: block;
+    }
+    .services-1{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .skill3-main{
+        display: block;
+    }
+    .skill-1 div{
+        width: 230px;
+        margin-right: 0px;
+    }
+    .skill-2 div{
+        width: 220px;
+        margin-right: 0px;
+    }
+    .skill-3 div{
+        width: 210px;
+        margin-right: 0px;
+    }
+    .skill-4 div{
+        width: 190px;
+        margin-right: 0px;
+    }
+    .skill-1{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-2{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-3{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-4{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+   .skill-main{
+    margin: 0;
+    display: none;
+   }
+    
+    .skill-text{
+        width: 250px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .contact-main{
+        display: block;
+    }
+    .about-us-2 h5{
+        font-size: 12px;
+    }
+    .about-us-2 p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    .about-us-2 h1{
+        font-size: 18px;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .home-section-text p{
+        color: white;
+        font-size: 30px;
+        margin-right: 0px;
+    
+    }
+    .block-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services-main{
+                display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-section-text h1 {
+        color: #FFBD39;
+        font-size: 60px;
+        margin-right: 0px;
+    }
+    .home-section-text h5{
+        color: #FFBD39;
+        font-size: 25px;
+        margin-right: 0px;
+    }
+
+}
+@media screen and (min-width:481px) and (max-width:600px){
+    .topbar-2-list li{
+        display: none;
+    }
+    .topbar-main{
+        width: auto;
+    }
+    .home-section-image{
+        display: none;
+    }
+    .home-section-text {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .about-us-1 img{
+        display: none;
+        margin-right: 0px;
+    }
+    .block-main{
+        display: block;
+    }
+    .block-1{
+       
+    background-color: #1A1A1A;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 10px; 
+    }
+    .block-1 p{
+        font-size: 12px; 
+        width: 270px;
+    }
+    .services-main{
+        display: block;
+    }
+    .services-1{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .skill3-main{
+        display: block;
+    }
+    .skill-1 div{
+        width: 230px;
+        margin-right: 0px;
+    }
+    .skill-2 div{
+        width: 220px;
+        margin-right: 0px;
+    }
+    .skill-3 div{
+        width: 210px;
+        margin-right: 0px;
+    }
+    .skill-4 div{
+        width: 190px;
+        margin-right: 0px;
+    }
+    .skill-1{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-2{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-3{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-4{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+   .skill-main{
+    margin: 0;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+    
+    .skill-text{
+        width: 250px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .contact-main{
+        display: block;
+    }
+    .about-us-2 h5{
+        font-size: 12px;
+    }
+    .about-us-2 p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    .about-us-2 h1{
+        font-size: 18px;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .home-section-text p{
+        color: white;
+        font-size: 30px;
+        margin-right: 0px;
+    
+    }
+    .block-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services-main{
+                display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-section-text h1 {
+        color: #FFBD39;
+        font-size: 60px;
+        margin-right: 0px;
+    }
+    .home-section-text h5{
+        color: #FFBD39;
+        font-size: 25px;
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+   .topbar-2-list li{
+        display: none;
+    }
+    .topbar-main{
+        width: auto;
+    }
+    .home-section-image{
+        display: none;
+    }
+    .home-section-text {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .about-us-1 img{
+        display: none;
+        margin-right: 0px;
+    }
+    .block-main{
+        display: block;
+    }
+    .block-1{
+       
+    background-color: #1A1A1A;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 10px; 
+    }
+    .block-1 p{
+        font-size: 12px; 
+        width: 270px;
+    }
+    .services-main{
+        display: block;
+    }
+    .services-1{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .skill3-main{
+        display: block;
+    }
+    .skill-1 div{
+        width: 230px;
+        margin-right: 0px;
+    }
+    .skill-2 div{
+        width: 220px;
+        margin-right: 0px;
+    }
+    .skill-3 div{
+        width: 210px;
+        margin-right: 0px;
+    }
+    .skill-4 div{
+        width: 190px;
+        margin-right: 0px;
+    }
+    .skill-1{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-2{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-3{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-4{
+        width: 250px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+   .skill-main{
+    margin: 0;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+    
+    .skill-text{
+        width: 250px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .contact-main{
+        display: block;
+    }
+    .about-us-2 h5{
+        font-size: 12px;
+    }
+    .about-us-2 p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    .about-us-2 h1{
+        font-size: 18px;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .home-section-text p{
+        color: white;
+        font-size: 30px;
+        margin-right: 0px;
+    
+    }
+    .block-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services-main{
+                display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-section-text h1 {
+        color: #FFBD39;
+        font-size: 60px;
+        margin-right: 0px;
+    }
+    .home-section-text h5{
+        color: #FFBD39;
+        font-size: 25px;
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:900px){
+  .skill3-main{
+        display: block;
+    }
+    .skill-1 div{
+        width: 330px;
+        margin-right: 0px;
+    }
+    .skill-2 div{
+        width: 290px;
+        margin-right: 0px;
+    }
+    .skill-3 div{
+        width: 260px;
+        margin-right: 0px;
+    }
+    .skill-4 div{
+        width: 220px;
+        margin-right: 0px;
+    }
+    .skill-1{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-2{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-3{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-4{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+   .skill-main{
+    margin: 0;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+    
+    .skill-text{
+        width: 250px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .block-1{
+       
+        background-color: #1A1A1A;
+        height: 300px;
+        width: 350px;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-left: 10px; 
+        }
+        .block-1 p{
+            font-size: 15px;
+            width: 300px;
+        }
+        .services-1{
+            width: 290px;
+            margin-left: 10px;
+        }
+        .home-section-text{
+            margin-left: 0px;
+        }
+
+}
+@media screen and (min-width:901px) and (max-width:1024px){
+    .skill3-main{
+        display: block;
+    }
+    .skill-1 div{
+        width: 330px;
+        margin-right: 0px;
+    }
+    .skill-2 div{
+        width: 290px;
+        margin-right: 0px;
+    }
+    .skill-3 div{
+        width: 260px;
+        margin-right: 0px;
+    }
+    .skill-4 div{
+        width: 220px;
+        margin-right: 0px;
+    }
+    .skill-1{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-2{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-3{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .skill-4{
+        width: 350px;
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+   .skill-main{
+    margin: 0;
+    /* display: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+    
+    .skill-text{
+        width: 250px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .block-1{
+       
+        background-color: #1A1A1A;
+        height: 300px;
+        width: 350px;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-left: 10px; 
+        }
+        .block-1 p{
+            font-size: 15px;
+            width: 300px;
+        }
+        .services-1{
+            width: 290px;
+            margin-left: 10px;
+        }
+        .home-section-text{
+            margin-left: 0px;
+        }
+}
+.footer p {
+    text-align: center;
+    color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
